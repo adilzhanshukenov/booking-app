@@ -1,0 +1,25 @@
+#room {
+    height: 250px;
+    width: 250px;
+    min-width: 250px;
+    border-radius: 10px;
+    border: 0.5px solid var(--color-primary);
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex: content;
+}
+
+#photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+}
+
+#room-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

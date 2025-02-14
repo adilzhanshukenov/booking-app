@@ -1,0 +1,100 @@
+:root {
+  font-family: 'Raleway', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--color-light);
+  background-color: var(--color-dark);
+  min-height: 100vh;
+  width: 100%;
+  min-width: 830px;
+
+  --color-dark: #09122C;
+  /* Darkest */
+  --color-primary: #872341;
+  /* Main Dark */
+  --color-secondary: #BE3144;
+  /* Mid-tone */
+  --color-light: #E17564;
+  /* Lightest */
+}
+
+a {
+  font-weight: 500;
+  color: var(--color-light);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-secondary);
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Raleway";
+}
+
+h1 {
+  font-size: 2.7em;
+  line-height: 1.1;
+}
+
+input {
+  padding: 10px 20px;
+  font-size: 1em;
+  min-width: 70px;
+  border-radius: 5px;
+  color: var(--color-light);
+  border: 2px solid var(--color-secondary);
+  background-color: var(--color-primary);
+  transition: background-color 0.25s ease;
+}
+
+input:hover {
+  background-color: var(--color-secondary);
+}
+
+label {
+  font-size: 1.1em;
+}
+
+button {
+  border-radius: 5px;
+  border: 2px solid var(--color-secondary);
+  padding: 10px 20px;
+  color: var(--color-light);
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--color-primary);
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+button:hover {
+  background-color: var(--color-secondary);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+select {
+  padding: 10px 20px;
+  font-size: 0.9em;
+  color: var(--color-light);
+  background-color: var(--color-primary);
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  appearance: none;
+  /* Removes default styles */
+  -webkit-appearance: none;
+  /* Safari */
+  -moz-appearance: none;
+}

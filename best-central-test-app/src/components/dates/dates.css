@@ -1,0 +1,8 @@
+.search-dates {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+    justify-content: space-between;
+}
