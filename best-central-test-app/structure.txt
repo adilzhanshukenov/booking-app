@@ -1,0 +1,36 @@
+.
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+├── src
+│   ├── App.css
+│   ├── App.tsx
+│   ├── assets
+│   │   └── react.svg
+│   ├── components
+│   │   ├── book-room-form
+│   │   ├── dates
+│   │   ├── filter-bar
+│   │   ├── filter-form
+│   │   ├── footer
+│   │   ├── header
+│   │   ├── main
+│   │   ├── results
+│   │   ├── room-card
+│   │   └── shared
+│   ├── index.css
+│   ├── main.tsx
+│   ├── stores
+│   │   ├── modalStore
+│   │   └── roomstore
+│   └── vite-env.d.ts
+├── structure.txt
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+18 directories, 16 files
